@@ -52,7 +52,7 @@ benchmark {
         named("main") { // main configuration is created automatically, but you can change its defaults
             warmups = 5 // number of warmup iterations
             iterations = 10 // number of iterations
-            iterationTime = 15 // time in seconds per iteration
+            iterationTime = 3 // time in seconds per iteration
             outputTimeUnit = "ns"
             mode = "avgt"
             reportFormat = "text"

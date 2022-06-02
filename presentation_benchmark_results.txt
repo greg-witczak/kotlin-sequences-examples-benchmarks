@@ -1,0 +1,14 @@
+Benchmark                                           Mode  Cnt        Score       Error  Units
+CountLongNamesByGenderBenchmark.java                avgt   10    99344.095 ±   698.891  ns/op
+CountLongNamesByGenderBenchmark.kotlinNonSequence   avgt   10   167429.529 ±  4728.610  ns/op
+CountLongNamesByGenderBenchmark.kotlinSequence      avgt   10   135890.259 ±  9614.115  ns/op
+FirstBNameBenchmark.nonSequence                     avgt   10    20014.139 ±   181.324  ns/op
+FirstBNameBenchmark.sequence                        avgt   10       61.516 ±     0.987  ns/op
+FirstBNameBenchmark.streams                         avgt   10      135.904 ±     2.477  ns/op
+HelloWorldBenchmark.javaStreams                     avgt   10    34218.896 ±   578.533  ns/op
+HelloWorldBenchmark.nonFunctionalJavaCode           avgt   10    35397.995 ±   659.800  ns/op
+HelloWorldBenchmark.nonSequence                     avgt   10    30140.086 ±   648.803  ns/op
+HelloWorldBenchmark.sequence                        avgt   10    30840.785 ±   401.340  ns/op
+SortedLongNamesByGenderBenchmark.java               avgt   10  1266043.515 ± 20411.401  ns/op
+SortedLongNamesByGenderBenchmark.kotlinNonSequence  avgt   10  1325261.085 ± 24419.253  ns/op
+SortedLongNamesByGenderBenchmark.kotlinSequence     avgt   10  1331659.336 ± 35442.280  ns/op
